@@ -1,2 +1,0 @@
-# FL
-freshers repository
