@@ -1,3 +1,21 @@
-body {
-    background-color: lightblue;
+body{
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #90caf9;
 }
+
+#myAudio{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+p{
+	font-family: 'Hanalei Fill', cursive;
+	font-size: 50px;
+}
+

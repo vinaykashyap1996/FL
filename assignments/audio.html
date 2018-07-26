@@ -2,33 +2,21 @@
 <head>
 	<title> audio player</title>
 	<link rel="stylesheet" type="text/css" href="audio.css">
+        <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
 	</head>
 <body>
 	<div id="vi">
 
-<audio id="myAudio">
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="horse.mp3" type="audio/mpeg">
+<audio  controls id="myAudio">
+  <source src="iphone_crystal.mp3" type="audio/ogg">
+  <source src="iphone_crystal.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 </div>
 
 <p>Click the buttons to play or pause the audio.</p>
 
-<button onclick="playAudio()" type="button">Play </button>
-<button onclick="pauseAudio()" type="button">Pause </button> 
 
-<script>
-var x = document.getElementById("myAudio"); 
-
-function playAudio() { 
-    x.play(); 
-} 
-
-function pauseAudio() { 
-    x.pause(); 
-} 
-</script>
 
 </body>
 </html>
