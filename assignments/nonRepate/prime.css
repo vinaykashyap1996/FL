@@ -1,0 +1,38 @@
+.bodyprime {
+	background-image: url(photo-1502570149819-b2260483d302.jpeg);
+	margin:0px;
+	background-position:bottom;
+	color:black;
+	font-size: 12px;
+	background-size: 1933px 871px ;
+	background-repeat: no-repeat;
+
+}
+#div1 {
+	margin-top:60px;
+}
+#div1{
+padding: 23px;
+}
+#div1 {
+margin: 12px;
+}
+#name1,#pass1 {
+	color: red;
+	font: 13px;
+}
+#btn5 { 
+
+ 
+    margin-top: 4px;
+    border-radius: 20px;
+    margin-left: 96px;
+    background: white;
+    width: 70px;
+    font-family: 'Yellowtail',cursive;
+    font-size: 15px;
+}
+#res ,#res1{
+
+	color:lightblue;
+}

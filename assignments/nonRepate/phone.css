@@ -1,0 +1,97 @@
+
+header {
+    height: 160px;
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+nav {
+    float:left;
+    max-width:800px;
+    height: 600px; 
+    background: #ccc;
+    padding:1em;
+    border:2px;
+    background-clip:padding-box;
+    font-size:18px;
+    font-family: 'MedievalSharp', cursive;
+    color:black;
+}
+
+article {
+    margin-top:250px;
+	margin-left:620px;
+    float: left;
+    padding:1em;
+    background-color:transparent;
+    background-clip:padding-box;
+    border:2px;
+    height:60px;
+    background-image: linear-gradient(rgba(26,26,26,0.7));
+    -webkit-background-size: cover;
+	-moz-background-size :cover;
+	-o-background-size:cover;
+	 background-size:cover;
+}
+
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+footer {
+    background-color: #777;
+    padding:6px;
+    text-align: center;
+    color: white;
+    bottom: 300px;
+}
+.bodycalsshelp{
+background-image: url(old-barn-wood-floor-background-texture-natural-brown-wall-pattern-planks-boards-very-beautiful-rustic-look-style-41537343.jpg);
+margin: 0px;
+background-position:center;
+color:black;
+font-size: 45px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+li{
+    padding:10px;
+}
+a:hover{
+    color: red;
+}
+header {
+    font-family: 'Indie Flower', cursive;
+}
+#resultvalue {
+     margin-left: -35px;
+     color:white;
+}
+#btn1{
+     margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 55px;
+    background:white;
+    width: 70px;
+}
+button:hover {
+    color:red;
+}
+input {
+    color: black;
+    text-align: center;
+}
+#headerconatnt {
+    margin-top: -160px;
+}

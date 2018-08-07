@@ -1,0 +1,21 @@
+.bodybal{
+	margin: 0px;
+	background-image:url(images1.jpeg);
+	margin:0px;
+	background-position:bottom;
+	color:black;
+	font-size: 45px;
+	background-size: 1400px 871px ;
+	background-repeat: no-repeat;
+}
+#btn7{
+	    border-radius: 35px;
+	    margin-left:67px;
+	    background-color: black;
+}
+
+#test {
+  color:black;
+  font-size: 65px;
+  font-family: 'Indie Flower', cursive;
+  margin-left: 40px;
