@@ -1,0 +1,15 @@
+.bodybool {
+    margin: 0px;
+	background-image:url(maxresdefault.jpg);
+	margin:0px;
+	background-position:bottom;
+	color:black;
+	font-size: 45px;
+	background-size: 1850px 1238px ;
+	background-repeat: no-repeat;
+}
+#output1{
+	color:white;
+	margin-top: 40px;
+	margin-left:208px;
+}

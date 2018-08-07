@@ -175,7 +175,7 @@ function showpage(pageId){
           if(pageId == 'bool')
          {
         var headervalue = " THE BOOLEAN CALCULATOR ";
-        var content ='<div id="calc-layout"><input type = "number" id="input1"><button id = "and">&&</button><button id = "or">||</button><button id = "not" onclick = "not()">!</button><input type ="number" id="input2"><p id = "output"></p></div>';
+        var content ='<div id="calc-layout"><input type = "number" id="input1"><button id = "and">&&</button><button id = "or">||</button><button id = "not" onclick = "not()">!</button><input type ="number" id="input2"><p id = "output1"></p></div>';
         document.getElementById("pageconet").innerHTML = content;
         document.getElementById("headerconatnt").innerHTML = headervalue;
         ronaldo();
@@ -420,19 +420,19 @@ function ronaldo()
     var output = document.getElementById("output1");
 
     and.addEventListener("click", function(){
-        var result = (input1.value & input2.value);
-        output.innerHTML = result;
+        var result12 = (input1.value & input2.value);
+        output.innerHTML = result12;
     });
 
 
     or.addEventListener("click", function(){
-        var result = (input1.value | input2.value);
-        output.innerHTML = result;
+        var result12 = (input1.value | input2.value);
+        output.innerHTML = result12;
     });
 
     not.addEventListener("click", function(){
-        var result = !(input1.value);
-        output.innerHTML = result;
+        var result12 = !(input1.value);
+        output.innerHTML = result12;
     });
 }
 
@@ -503,7 +503,7 @@ function coins(){
     for (var i = 0; i < array_elements.length; i++) {
         if (array_elements[i] != current) {
             if (cnt > 0) {
-              document.getElementById("demo1").innerHTML =  current + ' coins --> ' + cnt + ' times<br>';
+              document.getElementById("demo1").innerHTML =  current + ' coins --> ' + cnt + ' number<br>';
             }
             current = array_elements[i];
             cnt = 1;
@@ -512,7 +512,7 @@ function coins(){
         }
     }
     if (cnt > 0) {
-        document.getElementById("demo2").innerHTML =  current + ' coins --> ' + cnt + ' times<br>';
+        document.getElementById("demo2").innerHTML =  current + ' coins --> ' + cnt + ' number<br>';
     }
     }
     else{
@@ -524,7 +524,7 @@ function coins(){
     for (var i = 0; i < array_elements.length; i++) {
         if (array_elements[i] != current) {
             if (cnt > 0) {
-              document.getElementById("demo1").innerHTML =  current + ' coins--> ' + cnt + ' times<br>';
+              document.getElementById("demo1").innerHTML =  current + ' coins--> ' + cnt + ' number<br>';
             }
             current = array_elements[i];
             cnt = 1;
@@ -533,10 +533,10 @@ function coins(){
         }
     }
     if (cnt > 0) {
-        document.getElementById("demo2").innerHTML =  current + ' coins --> ' + cnt + ' times<br>';
+        document.getElementById("demo2").innerHTML =  current + ' coins --> ' + cnt + ' number<br>';
         
     }
-    document.getElementById("demo2").innerHTML =  current + ' coins --> ' + cnt + ' times<br>';
+    document.getElementById("demo2").innerHTML =  current + ' coins --> ' + cnt + ' number<br>';
 
     }
 }
