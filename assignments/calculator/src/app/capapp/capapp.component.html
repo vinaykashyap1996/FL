@@ -1,0 +1,32 @@
+
+<body ng-app="myApp">
+    <h2>
+          CALCULATOR
+     </h2>
+    <form class="calc" ng-controller="MyCtrl">
+    <p class="calc-display">
+<input [(ngModel)]='num1' type="number"  name="num1"  placeholder="0"   class="calc-display-input">
+<input [(ngModel)]='num2' type="number"  name="num2"   placeholder="0"  class="calc-display-input">
+</p>
+<br>
+<br>
+<button class="calc-button calc-button-red calc-button-big" (click)='cal_add()'>
+  +
+</button>
+<button class="calc-button calc-button-red calc-button-big" (click)='cal_sub()'>
+  -
+</button>
+<button class="calc-button calc-button-red calc-button-big" (click)='cal_mul()'>
+  *
+</button>
+<button class="calc-button calc-button-red calc-button-big" (click)='cal_div()'>
+  /
+</button>
+<br>
+<br>
+<h1>
+the result is : {{result}}
+</h1>
+
+</form>
+</body>
